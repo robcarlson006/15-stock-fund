@@ -4,7 +4,7 @@
 
 **A $100, 15-stock US equity fund picked by written rules from Bloomberg data, tracked daily against the S&P 500 Total Return.**
 
-![fund](https://img.shields.io/badge/fund-%2B0.00%25-2a78d6?style=flat-square) ![vs S&P 500 Total Return](https://img.shields.io/badge/vs_S%26P_500_Total_Return-%2B0.00_pts-2ea44f?style=flat-square) ![as of](https://img.shields.io/badge/as_of-2026--11--13-555?style=flat-square) ![holdings](https://img.shields.io/badge/holdings-15-555?style=flat-square)
+[![daily update](https://github.com/robcarlson006/15-stock-fund/actions/workflows/daily-update.yml/badge.svg)](https://github.com/robcarlson006/15-stock-fund/actions/workflows/daily-update.yml) ![fund](https://img.shields.io/badge/fund-%2B0.00%25-2a78d6?style=flat-square) ![vs S&P 500 Total Return](https://img.shields.io/badge/vs_S%26P_500_Total_Return-%2B0.00_pts-2ea44f?style=flat-square) ![as of](https://img.shields.io/badge/as_of-2026--11--13-555?style=flat-square) ![holdings](https://img.shields.io/badge/holdings-15-555?style=flat-square)
 
 </div>
 
@@ -37,13 +37,13 @@
 | 3 | **LLY** | Eli Lilly | Health Care | 8.0% | 8% | $1,443.50 | +0.0% | +$0.00 |
 | 4 | **NFLX** | Netflix | Comm. Services | 8.0% | 8% | $62.15 | +0.0% | +$0.00 |
 | 5 | **VRT** | Vertiv | Industrials | 8.0% | 8% | $202.07 | +0.0% | +$0.00 |
-| 6 | **ADBE** | Adobe | Technology | 7.0% | 7% | $243.08 | +0.0% | +$0.00 |
-| 7 | **FICO** | Fair Isaac | Technology | 7.0% | 7% | $720.19 | +0.0% | +$0.00 |
-| 8 | **ISRG** | Intuitive Surgical | Health Care | 7.0% | 7% | $443.59 | +0.0% | +$0.00 |
+| 6 | **ISRG** | Intuitive Surgical | Health Care | 7.0% | 7% | $443.59 | +0.0% | +$0.00 |
+| 7 | **ADBE** | Adobe | Technology | 7.0% | 7% | $243.08 | +0.0% | +$0.00 |
+| 8 | **PGR** | Progressive | Financials | 7.0% | 7% | $235.78 | +0.0% | +$0.00 |
 | 9 | **NVO** | Novo Nordisk (ADR) | Health Care | 7.0% | 7% | $41.63 | +0.0% | +$0.00 |
-| 10 | **PGR** | Progressive | Financials | 7.0% | 7% | $235.78 | +0.0% | +$0.00 |
+| 10 | **FICO** | Fair Isaac | Technology | 7.0% | 7% | $720.19 | +0.0% | +$0.00 |
 | 11 | **CEG** | Constellation Energy | Utilities | 5.0% | 5% | $280.20 | +0.0% | +$0.00 |
-| 12 | **FCX** | Freeport-McMoRan | Materials | 5.0% | 5% | $59.26 | +0.0% | +$0.00 |
+| 12 | **FCX** | Freeport-McMoRan | Materials | 5.0% | 5% | $59.24 | +0.0% | +$0.00 |
 | 13 | **JPM** | JPMorgan Chase | Financials | 5.0% | 5% | $346.19 | +0.0% | +$0.00 |
 | 14 | **VST** | Vistra | Utilities | 5.0% | 5% | $133.01 | +0.0% | +$0.00 |
 | 15 | **WPC** | W. P. Carey | Real Estate | 5.0% | 5% | $65.67 | +0.0% | +$0.00 |
