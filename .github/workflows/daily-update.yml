@@ -45,5 +45,6 @@ jobs:
             echo "No changes (market holiday or no new close)."
           else
             git commit -m "Daily update: $(jq -r '.as_of' tracking/summary.json), NAV \$$(jq -r '.nav*100|round/100' tracking/summary.json)"
+            git pull --rebase -X theirs origin main   # keep this run's generated files if another run landed first
             git push
           fi
