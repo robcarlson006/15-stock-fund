@@ -59,24 +59,24 @@ def main() -> int:
                 f"[`portfolio/trade_log.csv`](portfolio/trade_log.csv) is filled in.\n\n")
 
     def stat(v, fmt):
-        return fmt(v) if v is not None else "_after 20 days_"
+        return fmt(v) if v is not None else "_20d+_"
 
+    exc_s = f"{exc * 100:+.2f} pts".replace("-", MINUS)
+    vol = pct(s["volatility"], False, 1) if s["volatility"] is not None else "_after 5 days_"
+    beat = (pct(s["days_beat_benchmark"], False, 0)
+            if s["days_beat_benchmark"] is not None and s["trading_days"] > 1 else "—")
     kpi = (
-        "| NAV | Since inception | " + bench + " | Excess return | Max drawdown | Days tracked |\n"
-        "|:--:|:--:|:--:|:--:|:--:|:--:|\n"
+        f"| NAV | Since inception | {bench} | Excess return | Last session |\n"
+        "|:--:|:--:|:--:|:--:|:--:|\n"
         f"| **{money(s['nav'])}** | **{pct(s['total_return'])}** | {pct(s['benchmark_return'])} | "
-        f"**{exc * 100:+.2f} pts**".replace("-", MINUS) +
-        f" | {pct(s['max_drawdown'])} | {s['trading_days']} |\n"
+        f"**{exc_s}** | {pct(s['day_return'])} vs {pct(s['benchmark_day_return'])} |\n"
     )
     risk = (
-        "| Last session | Volatility (ann.) | Sharpe | Beta | Tracking error | Days beating index | Dividends |\n"
-        "|:--:|:--:|:--:|:--:|:--:|:--:|:--:|\n"
-        f"| {pct(s['day_return'])} vs {pct(s['benchmark_day_return'])} | "
-        f"{stat(s['volatility'], lambda v: pct(v, False, 1)) if s['volatility'] is not None else '_after 5 days_'} | "
-        f"{stat(s['sharpe'], lambda v: f'{v:.2f}')} | {stat(s['beta'], lambda v: f'{v:.2f}')} | "
-        f"{stat(s['tracking_error'], lambda v: pct(v, False, 1))} | "
-        f"{pct(s['days_beat_benchmark'], False, 0) if s['days_beat_benchmark'] is not None and s['trading_days'] > 1 else '—'} | "
-        f"{money(s['dividends_received'])} |\n"
+        "| Max drawdown | Volatility | Sharpe | Beta | Tracking error | Days beating index | Dividends | Days tracked |\n"
+        "|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|\n"
+        f"| {pct(s['max_drawdown'], False)} | {vol} | {stat(s['sharpe'], lambda v: f'{v:.2f}')} | "
+        f"{stat(s['beta'], lambda v: f'{v:.2f}')} | {stat(s['tracking_error'], lambda v: pct(v, False, 1))} | "
+        f"{beat} | {money(s['dividends_received'])} | {s['trading_days']} |\n"
     )
 
     rows = ["| | Ticker | Company | Sector | Weight | Target | Price | Return | P&L |",
