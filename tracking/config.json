@@ -1,0 +1,9 @@
+{
+  "fund_name": "15-Stock Rules-Based Fund",
+  "tagline": "A $100, 15-stock US equity fund picked by written rules from Bloomberg data, tracked daily against the S&P 500 Total Return.",
+  "inception_date": "2026-11-13",
+  "starting_capital_usd": 100,
+  "benchmark": {"ticker": "^SP500TR", "name": "S&P 500 Total Return"},
+  "risk_free_rate_annual": 0.0,
+  "price_source": "Yahoo Finance daily close via yfinance"
+}

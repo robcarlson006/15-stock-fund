@@ -1,0 +1,76 @@
+id,ticker,company,sector,cap,thesis,main_risk,data_flag
+1,MSFT,Microsoft,Technology,Large,Wide-moat AI/cloud platform; Morningstar FV $600,AI-capex returns; fell ~2.8% on 5 Nov,P
+2,AVGO,Broadcom,Technology,Large,AI chips/networking plus software cash generation; wide moat,AI capex slowdown,P
+3,SNPS,Synopsys,Technology,Large,Leading chip-design (EDA) software; Ansys deal,Ansys integration; chip-design cycle,P
+4,TXN,Texas Instruments,Technology,Large,Largest analog chipmaker; strong FCF expected,Industrial/auto cycle; heavy capex,P
+5,NXPI,NXP Semiconductors,Technology,Large/Mid,"Auto and industrial chips, non-AI",Auto cycle,P
+6,SAP,SAP (ADR),Technology,Large,Largest enterprise-application vendor; cloud growth,AI disruption of application software,P
+7,ADBE,Adobe,Technology,Large,"Software hit by the 2026 software selloff; narrow moat, Morningstar FV $380 (Apr, stale)",AI-native competitors,P
+8,FICO,Fair Isaac,Technology,Large/Mid,Credit-score leader with pricing power; non-AI,Regulatory/pricing pushback,P
+9,TSM,TSMC (ADR),Technology,Mega,"Q3 revenue NT$1.49tn (+51%), 58.7% operating margin","Taiwan geopolitics; ""prudent"" 2027 capex stance",V
+10,GOOGL,Alphabet,Comm. Services,Large,Morningstar FV raised to $450; trailing P/E 13x,Q3 free cash flow -$9.07B on $51.36B capex; fell 11.9% on the print,V
+11,META,Meta Platforms,Comm. Services,Large,Wide-moat ad platform; FV $850 (Apr 2026),Capex burden; data-center restrictions,P
+12,SONY,Sony Group (ADR),Comm. Services,Large,Games/music/sensors offset volatile electronics; wide moat,Electronics volatility,P
+13,NFLX,Netflix (fill),Comm. Services,Large,Streaming scale leader,Fell in the 5 Nov selloff; valuation not checked,U
+14,VZ,Verizon (fill),Comm. Services,Large,Defensive telecom cash flows,Rate sensitivity; leverage,U
+15,AMZN,Amazon,Cons. Discretionary,Mega,Morningstar: deep discount to fair value; 39% of the cyclical sector,Capex intensity; antitrust,P
+16,TJX,TJX Companies,Cons. Discretionary,Large,Off-price share gainer if consumers trade down,Premium multiple; tariff/freight,U
+17,HD,Home Depot,Cons. Discretionary,Large,Housing-turnover recovery,Stalled housing; rates,U
+18,YUM,Yum Brands,Cons. Discretionary,Large,Asset-light franchisor,Pizza Hut/Taco Bell comps; low-income diners,U
+19,SBUX,Starbucks,Cons. Discretionary,Large,Turnaround under way,Execution; labor cost,U
+20,NKE,Nike,Cons. Discretionary,Large,Turnaround/mean reversion,Asia tariffs; China,U
+21,BKNG,Booking Holdings,Cons. Discretionary,Large,Travel compounder,Travel slowdown; AI disintermediation,U
+22,HSY,Hershey,Cons. Staples,Large,Cocoa-deflation margin recovery; FY26 EPS growth guide 36-38.5%,Falling volumes; EPS flattered by one-off tariff refunds,V
+23,CPB,Campbell's,Cons. Staples,Mid,~13x forward P/E vs ~14x five-year average; deleveraging,36% dividend cut; FY27 sales guided down 2-4%; analyst targets below price,P
+24,CLX,Clorox,Cons. Staples,Mid/Large,GOJO acquisition; FY27 organic growth guide +3.5-4.5%,Margin guide cut; management expects low end of EPS range,V
+25,COST,Costco,Cons. Staples,Mega,"Membership model; has de-rated from ""overvalued""",Still a premium multiple (unverified),P
+26,WMT,Walmart,Cons. Staples,Mega,"Scale defensive; has de-rated from ""overvalued""",Premium multiple (unverified),P
+27,MDLZ,Mondelez,Cons. Staples,Large,Global snacking; cocoa deflation,Volumes; FX; same cocoa exposure as HSY,U
+28,LLY,Eli Lilly,Health Care,Mega,Q3 revenue $24.4B (+39%); 2026 guide raised to $91-92B,GLP-1 pricing pressure; ~28x forward P/E (Sep),V
+29,JNJ,Johnson & Johnson,Health Care,Mega,Pharma plus medtech; 2026 guide raised,Stelara erosion; talc charge; stock +46% in a year,V
+30,MRK,Merck,Health Care,Mega,Keytruda subQ shift; Q3 sales $18.1B (+5%),US Keytruda IV patent expires Dec 2028; forward P/E ~17x vs 14.2x average,V
+31,UNH,UnitedHealth,Health Care,Mega,Margin recovery; 2026 EPS guide raised to at least $20.50,Over 1M Medicare Advantage members lost; star-ratings share falling,V
+32,TMO,Thermo Fisher,Health Care,Mega/Large,Tools/CDMO compounder; Q3 revenue $12.14B (+9%),Biopharma/academic funding; tariffs,V
+33,DHR,Danaher,Health Care,Large,Bioprocessing; 2026 EPS guide raised to $8.57-8.62,Core growth only 3.0%; Masimo debt; tariff refunds flatter growth,V
+34,ISRG,Intuitive Surgical,Health Care,Large,da Vinci robotics; 32.3% operating margin,Premium multiple (51.6x trailing); $450M litigation settlement,P
+35,ABT,Abbott Laboratories,Health Care,Large/Mega,Diversified devices; 2026 organic growth guide 6.5-7.5%,Nutrition weakness; valuation data stale (Feb),P
+36,SYK,Stryker,Health Care,Large,Pulled-back quality medtech; -15.9% over a year,Premium multiple (32.4x trailing),P
+37,NVO,Novo Nordisk (ADR),Health Care,Large,FY26 guide raised to -2% to +2%; FCF guide DKK 60-70B,US Wegovy/Ozempic list-price cuts from 1 Jan 2027,V
+38,JPM,JPMorgan Chase,Financials,Mega,20% ROTCE; Q3 net income $15.3B,P/TBV 2.98x vs 2.33x average; buyback cut; first EPS miss in nearly three years,V
+39,WFC,Wells Fargo,Financials,Large,Asset cap lifted; Q3 profit $5.95B beat,Mortgage weakness (rates above 7%),V
+40,GS,Goldman Sachs,Financials,Large,Q3 EPS $17.01 on equities trading,Cyclical capital-markets earnings,V
+41,V,Visa,Financials,Mega,FY26 EPS $13.27 (+16%); dividend +16%,Interchange regulation/litigation,V
+42,MA,Mastercard,Financials,Mega,Same network economics as Visa,Regulation; competition,U
+43,CME,CME Group,Financials,Large,Record Q3 volume; market data +20%,Volume normalization,V
+44,SPGI,S&P Global,Financials,Large,Ratings and data franchise,Issuance slowdown; AI disruption,U
+45,PGR,Progressive,Financials,Large,Combined ratio 88.7%; policies +6%,$2.73B unrealized bond loss; commercial lines at 92.6%; source AI-generated,P
+46,CB,Chubb,Financials,Large,Premium P&C underwriter,Catastrophe losses; softening pricing; Q3 EPS is a headline only,P
+47,PLD,Prologis,Real Estate,Large,Logistics leader; data-center optionality,Industrial pricing; rate sensitivity; source AI-generated,P
+48,O,Realty Income,Real Estate,Large,5.72% yield at $56.94 (30 Oct),Yield barely above the 10-year,P
+49,WPC,W. P. Carey,Real Estate,Mid/Large,5.93% yield at $64.11 (30 Oct),Legacy office tenants; growth,P
+50,EQIX,Equinix (fill),Real Estate,Large,Data-center REIT,Rates; same AI-capex theme,U
+51,GE,GE Aerospace,Industrials,Mega,Q3 orders $19.0B (+49%); >$170B services backlog,Air-travel downturn; free cash flow fell 14%; premium valuation,V
+52,ETN,Eaton,Industrials,Mega,Record Q3 sales $8.9B; electrical backlog +46%,Data-center capex reversal,V
+53,PWR,Quanta Services,Industrials,Large,$63.7B backlog; Q3 revenue $12.01B,Receivables up to $10.1B (secondary source); project concentration,V
+54,VRT,Vertiv,Industrials,Large,"Q3 net sales +61%, organic orders +100% (company headline)",AI-capex cycle; customer concentration,P
+55,RTX,RTX,Industrials,Mega,Defense plus commercial aero aftermarket,Engine quality; defense budget,U
+56,CAT,Caterpillar,Industrials,Mega,"Power-generation engines, construction",Cyclicality; tariffs,U
+57,UNP,Union Pacific,Industrials,Large,"Rail pricing power, FCF",Volumes; merger regulatory uncertainty,U
+58,ODFL,Old Dominion,Industrials,Large,Best-in-class LTL; trough-cycle recovery,Freight recession,U
+59,FCX,Freeport-McMoRan,Materials,Large,Copper for electrification; Q3 adj. EPS $0.88 vs $0.82 expected,Copper price; Indonesia,V
+60,NUE,Nucor,Materials,Large,Q3 EPS $5.80 vs $2.63; shipments +11.2%,Steel cyclicality; tariff policy,V
+61,LIN,Linde,Materials,Mega,Contracted industrial gases,Premium valuation,U
+62,EMN,Eastman Chemical,Materials,Mid,Named undervalued in Feb 2026 (headline only),Weak chemical demand; confirm it stays above $5B,U
+63,CTVA,Corteva (fill),Materials,Mid/Large,Named undervalued in Feb 2026 (headline only),Ag-cycle; not researched,U
+64,MOS,Mosaic (fill),Materials,Mid,Named undervalued in Feb 2026 (headline only),Fertilizer price cycle,U
+65,XOM,ExxonMobil,Energy,Mega,Q3 adj. EPS $4.23; $20B buyback; Guyana/Permian,War-inflated earnings; peace-deal oil downside,V
+66,CVX,Chevron,Energy,Mega,Q3 earnings $9.9B; records in East Med and Australia,Same oil mean-reversion risk,V
+67,SHEL,Shell (ADR),Energy,Mega,Q3 profit $10.81B; quarterly buyback $5B,Refining margins roughly quadrupled and will normalize,V
+68,TTE,TotalEnergies (ADR),Energy,Mega,Gearing 9.1%; $2.5B Q4 buyback,Same oil/LNG normalization,V
+69,COP,ConocoPhillips (fill),Energy,Large,Pure-play upstream,Highest oil-price beta in the sleeve,U
+70,NEE,NextEra Energy,Utilities,Large,Adj. EPS growth of at least 8% through 2032; 36.7 GW backlog,Dominion merger regulatory risk; yield sensitivity,V
+71,CEG,Constellation Energy,Utilities,Large,Google and Amazon 20-year nuclear PPAs; 2026 guide $12.50-12.80,Power-price and data-center demand risk,V
+72,VST,Vistra,Utilities,Large,Q3 adj. EBITDA $2.38B (+50.4%); Meta PPA,Merchant power prices; $269M Moss Landing impairment,V
+73,D,Dominion Energy,Utilities,Large,Being acquired by NextEra; merger-spread situation,Virginia regulators reportedly recommend rejecting the deal as proposed,P
+74,DUK,Duke Energy (fill),Utilities,Large,Regulated balance-sheet quality,Rates; not researched,U
+75,SO,Southern Company (fill),Utilities,Large,Regulated balance-sheet quality,Rates; not researched,U

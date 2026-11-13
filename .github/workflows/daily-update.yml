@@ -1,0 +1,49 @@
+name: Daily update
+
+on:
+  schedule:
+    - cron: "30 21 * * 1-5"   # 21:30 UTC weekdays = after the New York close
+  workflow_dispatch:           # "Run workflow" button for a manual refresh
+  push:
+    branches: [main]
+    paths: ["portfolio/trade_log.csv", "portfolio/target_allocation.csv", "tracking/config.json"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install fonts and packages
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-inter
+          pip install -q -r requirements.txt
+          python -c "import matplotlib.font_manager as f; f._load_fontmanager(try_read_cache=False)"
+
+      - name: Pull prices, rebuild NAV, charts and README
+        working-directory: tools/track
+        run: python run.py
+
+      - name: Commit the update
+        run: |
+          git config user.name "fund-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tracking assets README.md
+          if git diff --cached --quiet; then
+            echo "No changes (market holiday or no new close)."
+          else
+            git commit -m "Daily update: $(jq -r '.as_of' tracking/summary.json), NAV \$$(jq -r '.nav*100|round/100' tracking/summary.json)"
+            git push
+          fi

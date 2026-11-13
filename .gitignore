@@ -1,0 +1,12 @@
+# Raw Bloomberg exports and parsed raw values: licensed data, not redistributed
+data/
+analysis/**/raw_long*.csv
+# Private working files
+CLAUDE.md
+.claude/
+00_context/Stock portfolio conversation.md
+# System
+.DS_Store
+__pycache__/
+*.pyc
+analysis/stage2_25_to_15/STAGE2_PROMPT.md

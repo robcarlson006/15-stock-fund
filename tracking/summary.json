@@ -1,0 +1,32 @@
+{
+  "as_of": "2026-11-13",
+  "mode": "model",
+  "inception": "2026-11-13",
+  "trading_days": 1,
+  "nav": 100.0,
+  "net_contributions": 100.0,
+  "cash": 0.0,
+  "total_return": 0.0,
+  "benchmark_return": 0.0,
+  "day_return": 0.0,
+  "benchmark_day_return": 0.0,
+  "max_drawdown": 0.0,
+  "benchmark_max_drawdown": 0.0,
+  "volatility": null,
+  "benchmark_volatility": null,
+  "sharpe": null,
+  "beta": null,
+  "tracking_error": null,
+  "days_beat_benchmark": null,
+  "dividends_received": 0.0,
+  "positions": 15,
+  "best": {
+    "ticker": "BKNG",
+    "return_pct": 0.0
+  },
+  "worst": {
+    "ticker": "BKNG",
+    "return_pct": 0.0
+  },
+  "excess_return": 0.0
+}

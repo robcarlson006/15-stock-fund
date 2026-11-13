@@ -1,0 +1,16 @@
+ticker,company,sector,theme_tag,stage2_rank,target_usd,thesis_one_line,sell_trigger
+VRT,Vertiv,Industrials,AI direct,1,8,Data-center power and cooling leader with orders more than doubling,"Organic orders fall year on year for two quarters in a row, or full-year sales guidance is cut."
+BKNG,Booking Holdings,Cons. Discretionary,,2,8,Largest online travel agency at 0.60x its own valuation history,"Room nights fall year on year for two quarters in a row, or net debt/EBITDA rises above 2.5x."
+COST,Costco,Cons. Staples,,3,8,Membership retailer with the cleanest accounts of the 25,"Comparable sales excluding fuel turn negative for two quarters in a row, or the US/Canada renewal rate falls below 90%."
+LLY,Eli Lilly,Health Care,,4,8,"Fastest grower of the 25, with a Piotroski score of 8 out of 9","Combined Mounjaro and Zepbound revenue falls quarter on quarter twice in a row, or full-year revenue guidance is cut."
+NFLX,Netflix,Comm. Services,,5,8,Streaming leader at 0.43x its own valuation history with strong cash conversion,"Revenue growth falls below 8% year on year for two quarters in a row, or it announces an acquisition above $25B."
+FICO,Fair Isaac,Technology,,6,7,"Credit-score standard with pricing power, at 0.44x its own valuation history","Scores revenue falls year on year in any quarter, or net debt/EBITDA goes above 4.0x (a Stage 1 red flag)."
+NVO,Novo Nordisk (ADR),Health Care,ADR,7,7,GLP-1 maker at 0.28x its own valuation history; cheapest quality name of the 25,"2027 guidance (due February 2027) implies operating profit falling more than 10% at constant currency, or Wegovy plus Ozempic sales fall year on year for two quarters in a row."
+ADBE,Adobe,Technology,,8,7,Creative-software standard with the highest cash yield of the 25,"Ending ARR growth falls below 9% year on year for two quarters in a row, or fiscal 2027 revenue targets imply growth below 8%."
+ISRG,Intuitive Surgical,Health Care,,9,7,Surgical-robot leader with no debt and the strongest balance sheet of the 25,Worldwide da Vinci procedure growth falls below 10% for two quarters in a row.
+PGR,Progressive,Financials,,10,7,Best-run US auto insurer at 0.38x its own P/E history,"The trailing-12-month combined ratio rises above 96, or policies in force fall year on year."
+VST,Vistra,Utilities,AI direct,11,5,"Texas and PJM power producer at a discount, tied to data-center demand","Full-year adjusted EBITDA guidance is cut, or net debt/EBITDA rises above 4.0x."
+FCX,Freeport-McMoRan,Materials,AI adjacent,12,5,Copper producer with rising earnings as Grasberg recovers,"Management moves the Grasberg 'near full capacity by end-2027' target later, or 2027 copper sales guidance is cut below 3.4 billion lb (now 3.7)."
+WPC,W. P. Carey,Real Estate,REIT income,13,5,"Net-lease REIT at 0.83x its own P/FFO history, passing 6 of 7 Piotroski signals","The dividend is cut, full-year AFFO guidance is lowered, or net debt/EBITDA goes above 7.0x."
+JPM,JPMorgan Chase,Financials,,14,5,"Largest US bank, with four straight years of EPS beats","CET1 falls below 13%, or return on tangible common equity is below 15% for two quarters in a row."
+CEG,Constellation Energy,Utilities,AI direct,15,5,Largest US nuclear fleet with new long-term data-center contracts,"The midpoint of full-year adjusted operating EPS guidance is lowered, or net debt/EBITDA rises above 4.0x."
