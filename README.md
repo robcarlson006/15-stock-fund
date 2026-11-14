@@ -4,7 +4,7 @@
 
 **A $100, 15-stock US equity fund picked by written rules from Bloomberg data, tracked daily against the S&P 500 Total Return.**
 
-![fund](https://img.shields.io/badge/fund-%2B0.00%25-2a78d6?style=flat-square) ![vs S&P 500 Total Return](https://img.shields.io/badge/vs_S%26P_500_Total_Return-%2B0.00_pts-2ea44f?style=flat-square) ![as of](https://img.shields.io/badge/as_of-2026--11--13-555?style=flat-square) ![holdings](https://img.shields.io/badge/holdings-15-555?style=flat-square)
+[![daily update](https://github.com/robcarlson006/15-stock-fund/actions/workflows/daily-update.yml/badge.svg)](https://github.com/robcarlson006/15-stock-fund/actions/workflows/daily-update.yml) ![fund](https://img.shields.io/badge/fund-%2B0.00%25-2a78d6?style=flat-square) ![vs S&P 500 Total Return](https://img.shields.io/badge/vs_S%26P_500_Total_Return-%2B0.00_pts-2ea44f?style=flat-square) ![as of](https://img.shields.io/badge/as_of-2026--11--13-555?style=flat-square) ![holdings](https://img.shields.io/badge/holdings-15-555?style=flat-square)
 
 </div>
 
