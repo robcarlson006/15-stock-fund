@@ -3,15 +3,15 @@
   "mode": "actual",
   "inception": "2026-11-13",
   "trading_days": 2,
-  "nav": 100.1182156136,
+  "nav": 100.023026241,
   "net_contributions": 100.01743635999999,
   "cash": 0.0,
-  "total_return": -0.0037700241724247796,
-  "benchmark_return": -0.008673780311011403,
-  "day_return": -0.0037700241724247796,
-  "benchmark_day_return": -0.008673780311011403,
-  "max_drawdown": -0.0037700241724247796,
-  "benchmark_max_drawdown": -0.008673780311011403,
+  "total_return": -0.00471720951510346,
+  "benchmark_return": -0.007402686322769969,
+  "day_return": -0.00471720951510346,
+  "benchmark_day_return": -0.007402686322769969,
+  "max_drawdown": -0.00471720951510346,
+  "benchmark_max_drawdown": -0.007402686322769969,
   "volatility": null,
   "benchmark_volatility": null,
   "sharpe": null,
@@ -21,12 +21,12 @@
   "dividends_received": 0.0,
   "positions": 15,
   "best": {
-    "ticker": "LLY",
-    "return_pct": 0.01550401538365761
+    "ticker": "VST",
+    "return_pct": 0.013907182149221552
   },
   "worst": {
     "ticker": "FICO",
-    "return_pct": -0.019430903215205107
+    "return_pct": -0.027338828942323368
   },
-  "excess_return": 0.0049037561385866235
+  "excess_return": 0.002685476807666509
 }
