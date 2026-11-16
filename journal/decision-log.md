@@ -76,3 +76,7 @@ One dated entry per decision or rule change. Newest at the bottom.
 - **WPC stays, TJX stays first on the bench.** The cash-yield skip for the insurer and REITs was fixed before any result was computed and matches how Stage 1 already treats those sectors. Reversing it after seeing that it costs TJX a place would be changing a rule to fit the outcome. PGR therefore stays at $7 and NFLX at $8.
 - **LLY/NVO and CEG/VST: both names kept in each pair.** The framework's only pair rule is the 0.85 correlation limit, which can't be tested without prices, and the brief says not to invent a substitute. Every limit that can be tested passes (Health Care $22 of $25, AI/data-center $23 of $30, 4 of 4 names).
 - **Follow-up fixed now:** when the price file arrives, the 0.85 test is run on all pairs. If a pair fails, the lower-scored name (NVO in LLY/NVO, CEG in CEG/VST) is replaced by the highest-ranked bench name that fits the limits. No change to `portfolio/target_allocation.csv`.
+
+## 2026-11-13: Fund bought (logged 16 Nov)
+- All 15 bought on Robinhood on 13 Nov, $100.02 total (CEG $5.02, rest exactly on target). Fills from Robinhood order history are in `portfolio/trade_log.csv`.
+- Performance tracking: fund and S&P 500 TR are both measured from the 13 Nov close; per-holding P&L is measured from the fill prices. Daily tracker runs on GitHub Actions.

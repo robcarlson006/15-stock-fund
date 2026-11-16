@@ -4,7 +4,8 @@ Positions come from portfolio/trade_log.csv. If the log is still empty, the
 fund is modelled as the target allocation bought at the inception-day close,
 and every output is marked mode="model" so it is never mistaken for real fills.
 
-Returns are time-weighted: r_t = NAV_t / (NAV_{t-1} + new money_t) - 1, so
+Returns start at the first close (fund and benchmark on the same footing) and
+are time-weighted: r_t = NAV_t / (NAV_{t-1} + new money_t) - 1, so
 adding cash later does not count as performance. Dividends are credited as
 cash on the ex-date using shares held the day before (Robinhood pays on the
 pay date, so this is an estimate for the gap between the two).
@@ -89,7 +90,9 @@ def main() -> int:
         mv = sum(shares[n] * prices.at[d, n] for n in names)
         nav = mv + cash
         base = prev_nav + flow
-        r = nav / base - 1 if base > 0 else 0.0
+        # First day: fund and index both start at that close, so fill-to-close
+        # moves aren't counted against an index that only starts at the close.
+        r = nav / base - 1 if prev_nav > 0 else 0.0
         rows.append(dict(date=d.date(), market_value=mv, cash=cash, nav=nav,
                          net_contributions=contributed, daily_return=r,
                          benchmark_close=prices.at[d, BENCH]))

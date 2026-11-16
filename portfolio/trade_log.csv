@@ -1,1 +1,16 @@
 date,ticker,side,quantity,price_usd,fees_usd,usd_gbp_rate,broker,notes
+2026-11-13,VRT,buy,0.041795,191.41,0,,Robinhood,market order; charged $8.00
+2026-11-13,BKNG,buy,0.049698,160.97,0,,Robinhood,market order; charged $8.00
+2026-11-13,COST,buy,0.007226,1107.00,0,,Robinhood,limit order; charged $8.00
+2026-11-13,LLY,buy,0.005533,1445.69,0,,Robinhood,limit order; charged $8.00
+2026-11-13,NFLX,buy,0.128729,62.15,0,,Robinhood,limit order; charged $8.00
+2026-11-13,FICO,buy,0.009585,730.28,0,,Robinhood,market order; charged $7.00
+2026-11-13,NVO,buy,0.166666,42.00,0,,Robinhood,market order; charged $7.00
+2026-11-13,ADBE,buy,0.028842,242.70,0,,Robinhood,limit order; charged $7.00
+2026-11-13,ISRG,buy,0.015752,444.38,0,,Robinhood,market order; charged $7.00
+2026-11-13,PGR,buy,0.029308,238.84,0,,Robinhood,market order; charged $7.00
+2026-11-13,VST,buy,0.038738,129.07,0,,Robinhood,market order; charged $5.00
+2026-11-13,FCX,buy,0.087719,57.00,0,,Robinhood,market order; charged $5.00
+2026-11-13,WPC,buy,0.075403,66.31,0,,Robinhood,market order; charged $5.00
+2026-11-13,JPM,buy,0.014468,345.57,0,,Robinhood,market order; charged $5.00
+2026-11-13,CEG,buy,0.018132,276.85,0,,Robinhood,market order; charged $5.02

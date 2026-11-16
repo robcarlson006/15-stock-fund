@@ -4,49 +4,46 @@
 
 **A $100, 15-stock US equity fund picked by written rules from Bloomberg data, tracked daily against the S&P 500 Total Return.**
 
-[![daily update](https://github.com/robcarlson006/15-stock-fund/actions/workflows/daily-update.yml/badge.svg)](https://github.com/robcarlson006/15-stock-fund/actions/workflows/daily-update.yml) ![fund](https://img.shields.io/badge/fund-%2B0.00%25-2a78d6?style=flat-square) ![vs S&P 500 Total Return](https://img.shields.io/badge/vs_S%26P_500_Total_Return-%2B0.00_pts-2ea44f?style=flat-square) ![as of](https://img.shields.io/badge/as_of-2026--11--13-555?style=flat-square) ![holdings](https://img.shields.io/badge/holdings-15-555?style=flat-square)
+![fund](https://img.shields.io/badge/fund-%E2%88%920.38%25-2a78d6?style=flat-square) ![vs S&P 500 Total Return](https://img.shields.io/badge/vs_S%26P_500_Total_Return-%2B0.49_pts-2ea44f?style=flat-square) ![as of](https://img.shields.io/badge/as_of-2026--11--16-555?style=flat-square) ![holdings](https://img.shields.io/badge/holdings-15-555?style=flat-square)
 
 </div>
-
-> [!NOTE]
-> Positions are currently **modelled** as the target dollar amounts bought at the 13 Nov 2026 close. They switch to the actual Robinhood fills as soon as [`portfolio/trade_log.csv`](portfolio/trade_log.csv) is filled in.
 
 ## Performance
 
 | NAV | Since inception | S&P 500 Total Return | Excess return | Last session |
 |:--:|:--:|:--:|:--:|:--:|
-| **$100.00** | **+0.00%** | +0.00% | **+0.00 pts** | +0.00% vs +0.00% |
+| **$100.12** | **−0.38%** | −0.87% | **+0.49 pts** | −0.38% vs −0.87% |
 
 | Max drawdown | Volatility | Sharpe | Beta | Tracking error | Days beating index | Dividends | Days tracked |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| 0.00% | _after 5 days_ | _20d+_ | _20d+_ | _20d+_ | — | $0.00 | 1 |
+| −0.38% | _after 5 days_ | _20d+_ | _20d+_ | _20d+_ | 100% | $0.00 | 2 |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/charts/performance-dark.png">
   <img alt="Cumulative return of the fund vs the S&P 500 Total Return" src="assets/charts/performance-light.png" width="100%">
 </picture>
 
-<sub>Updated automatically after every US market close. Time-weighted returns, dividends included; benchmark is the S&P 500 Total Return index (^SP500TR). Data as of 13 Nov 2026.</sub>
+<sub>Updated automatically after every US market close. Time-weighted returns, dividends included; benchmark is the S&P 500 Total Return index (^SP500TR). Data as of 16 Nov 2026.</sub>
 
 ## Holdings
 
 | | Ticker | Company | Sector | Weight | Target | Price | Return | P&L |
 |--:|:--|:--|:--|--:|--:|--:|--:|--:|
-| 1 | **BKNG** | Booking Holdings | Cons. Discretionary | 8.0% | 8% | $159.58 | +0.0% | +$0.00 |
-| 2 | **COST** | Costco | Cons. Staples | 8.0% | 8% | $1,106.21 | +0.0% | +$0.00 |
-| 3 | **LLY** | Eli Lilly | Health Care | 8.0% | 8% | $1,443.50 | +0.0% | +$0.00 |
-| 4 | **NFLX** | Netflix | Comm. Services | 8.0% | 8% | $62.15 | +0.0% | +$0.00 |
-| 5 | **VRT** | Vertiv | Industrials | 8.0% | 8% | $202.07 | +0.0% | +$0.00 |
-| 6 | **ISRG** | Intuitive Surgical | Health Care | 7.0% | 7% | $443.59 | +0.0% | +$0.00 |
-| 7 | **ADBE** | Adobe | Technology | 7.0% | 7% | $243.08 | +0.0% | +$0.00 |
-| 8 | **PGR** | Progressive | Financials | 7.0% | 7% | $235.78 | +0.0% | +$0.00 |
-| 9 | **NVO** | Novo Nordisk (ADR) | Health Care | 7.0% | 7% | $41.63 | +0.0% | +$0.00 |
-| 10 | **FICO** | Fair Isaac | Technology | 7.0% | 7% | $720.19 | +0.0% | +$0.00 |
-| 11 | **CEG** | Constellation Energy | Utilities | 5.0% | 5% | $280.20 | +0.0% | +$0.00 |
-| 12 | **FCX** | Freeport-McMoRan | Materials | 5.0% | 5% | $59.24 | +0.0% | +$0.00 |
-| 13 | **JPM** | JPMorgan Chase | Financials | 5.0% | 5% | $346.19 | +0.0% | +$0.00 |
-| 14 | **VST** | Vistra | Utilities | 5.0% | 5% | $133.01 | +0.0% | +$0.00 |
-| 15 | **WPC** | W. P. Carey | Real Estate | 5.0% | 5% | $65.67 | +0.0% | +$0.00 |
+| 1 | **LLY** | Eli Lilly | Health Care | 8.1% | 8% | $1,468.10 | +1.6% | +$0.12 |
+| 2 | **COST** | Costco | Cons. Staples | 8.0% | 8% | $1,114.60 | +0.7% | +$0.05 |
+| 3 | **VRT** | Vertiv | Industrials | 8.0% | 8% | $191.33 | −0.0% | −$0.00 |
+| 4 | **NFLX** | Netflix | Comm. Services | 7.9% | 8% | $61.73 | −0.7% | −$0.05 |
+| 5 | **BKNG** | Booking Holdings | Cons. Discretionary | 7.9% | 8% | $159.47 | −0.9% | −$0.07 |
+| 6 | **NVO** | Novo Nordisk (ADR) | Health Care | 7.0% | 7% | $42.26 | +0.6% | +$0.04 |
+| 7 | **ADBE** | Adobe | Technology | 7.0% | 7% | $244.06 | +0.6% | +$0.04 |
+| 8 | **ISRG** | Intuitive Surgical | Health Care | 7.0% | 7% | $445.20 | +0.2% | +$0.01 |
+| 9 | **PGR** | Progressive | Financials | 7.0% | 7% | $238.62 | −0.1% | −$0.01 |
+| 10 | **FICO** | Fair Isaac | Technology | 6.9% | 7% | $716.09 | −1.9% | −$0.14 |
+| 11 | **CEG** | Constellation Energy | Utilities | 5.1% | 5% | $279.00 | +0.8% | +$0.04 |
+| 12 | **VST** | Vistra | Utilities | 5.0% | 5% | $130.35 | +1.0% | +$0.05 |
+| 13 | **WPC** | W. P. Carey | Real Estate | 5.0% | 5% | $66.37 | +0.1% | +$0.00 |
+| 14 | **JPM** | JPMorgan Chase | Financials | 5.0% | 5% | $345.87 | +0.1% | +$0.00 |
+| 15 | **FCX** | Freeport-McMoRan | Materials | 5.0% | 5% | $57.03 | +0.1% | +$0.00 |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/charts/holdings-dark.png">
@@ -95,7 +92,7 @@ flowchart LR
 
 - **Schedule:** every weekday at 21:30 UTC (4:30 pm New York in winter, 5:30 pm in summer), after the close. Market holidays add no row.
 - **Positions:** rebuilt each run from [`portfolio/trade_log.csv`](portfolio/trade_log.csv), so a new trade only needs one line in that file.
-- **Returns:** time-weighted (new money is not counted as performance). Dividends are credited on the ex-date as an estimate of cash the broker pays on the pay date.
+- **Returns:** fund and index are both measured from the inception-day close, then time-weighted (new money is not counted as performance). P&L per holding is measured from the actual fill price. Dividends are credited on the ex-date as an estimate of cash the broker pays on the pay date.
 - **Data files:** [`tracking/nav.csv`](tracking/nav.csv) (daily NAV and index levels), [`tracking/prices.csv`](tracking/prices.csv), [`tracking/holdings.csv`](tracking/holdings.csv), [`tracking/summary.json`](tracking/summary.json).
 - **Audit trail:** each daily commit is a timestamped record of the portfolio, so the track record can't be backfilled or edited after the fact without it showing in the history.
 

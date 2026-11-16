@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-11-13",
-  "mode": "model",
+  "as_of": "2026-11-16",
+  "mode": "actual",
   "inception": "2026-11-13",
-  "trading_days": 1,
-  "nav": 100.0,
-  "net_contributions": 100.0,
+  "trading_days": 2,
+  "nav": 100.1182156136,
+  "net_contributions": 100.01743635999999,
   "cash": 0.0,
-  "total_return": 0.0,
-  "benchmark_return": 0.0,
-  "day_return": 0.0,
-  "benchmark_day_return": 0.0,
-  "max_drawdown": 0.0,
-  "benchmark_max_drawdown": 0.0,
+  "total_return": -0.0037700241724247796,
+  "benchmark_return": -0.008673780311011403,
+  "day_return": -0.0037700241724247796,
+  "benchmark_day_return": -0.008673780311011403,
+  "max_drawdown": -0.0037700241724247796,
+  "benchmark_max_drawdown": -0.008673780311011403,
   "volatility": null,
   "benchmark_volatility": null,
   "sharpe": null,
   "beta": null,
   "tracking_error": null,
-  "days_beat_benchmark": null,
+  "days_beat_benchmark": 1.0,
   "dividends_received": 0.0,
   "positions": 15,
   "best": {
-    "ticker": "BKNG",
-    "return_pct": 0.0
+    "ticker": "LLY",
+    "return_pct": 0.01550401538365761
   },
   "worst": {
-    "ticker": "BKNG",
-    "return_pct": 0.0
+    "ticker": "FICO",
+    "return_pct": -0.019430903215205107
   },
-  "excess_return": 0.0
+  "excess_return": 0.0049037561385866235
 }
