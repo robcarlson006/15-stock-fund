@@ -3,30 +3,30 @@
   "mode": "actual",
   "inception": "2026-11-13",
   "trading_days": 2,
-  "nav": 100.023026241,
+  "nav": 99.06303954399999,
   "net_contributions": 100.01743635999999,
-  "cash": 0.0,
-  "total_return": -0.00471720951510346,
-  "benchmark_return": -0.007402686322769969,
-  "day_return": -0.00471720951510346,
-  "benchmark_day_return": -0.007402686322769969,
-  "max_drawdown": -0.00471720951510346,
-  "benchmark_max_drawdown": -0.007402686322769969,
+  "cash": 0.007742363999999999,
+  "total_return": -0.01426959234659686,
+  "benchmark_return": -0.019038667354012273,
+  "day_return": -0.01426959234659686,
+  "benchmark_day_return": -0.019038667354012273,
+  "max_drawdown": -0.01426959234659686,
+  "benchmark_max_drawdown": -0.019038667354012273,
   "volatility": null,
   "benchmark_volatility": null,
   "sharpe": null,
   "beta": null,
   "tracking_error": null,
   "days_beat_benchmark": 1.0,
-  "dividends_received": 0.0,
+  "dividends_received": 0.007742363999999999,
   "positions": 15,
   "best": {
-    "ticker": "VST",
-    "return_pct": 0.013907182149221552
+    "ticker": "ADBE",
+    "return_pct": 0.013597033374536417
   },
   "worst": {
-    "ticker": "FICO",
-    "return_pct": -0.027338828942323368
+    "ticker": "FCX",
+    "return_pct": -0.03175438596491229
   },
-  "excess_return": 0.002685476807666509
+  "excess_return": 0.004769075007415413
 }
