@@ -4,7 +4,7 @@
 
 **A $100, 15-stock US equity fund picked by written rules from Bloomberg data, tracked daily against the S&P 500 Total Return.**
 
-[![daily update](https://github.com/robcarlson006/15-stock-fund/actions/workflows/daily-update.yml/badge.svg)](https://github.com/robcarlson006/15-stock-fund/actions/workflows/daily-update.yml) ![fund](https://img.shields.io/badge/fund-%E2%88%921.43%25-2a78d6?style=flat-square) ![vs S&P 500 Total Return](https://img.shields.io/badge/vs_S%26P_500_Total_Return-%2B0.48_pts-2ea44f?style=flat-square) ![as of](https://img.shields.io/badge/as_of-2026--11--16-555?style=flat-square) ![holdings](https://img.shields.io/badge/holdings-15-555?style=flat-square)
+[![daily update](https://github.com/robcarlson006/15-stock-fund/actions/workflows/daily-update.yml/badge.svg)](https://github.com/robcarlson006/15-stock-fund/actions/workflows/daily-update.yml) ![fund](https://img.shields.io/badge/fund-%E2%88%924.71%25-2a78d6?style=flat-square) ![vs S&P 500 Total Return](https://img.shields.io/badge/vs_S%26P_500_Total_Return-%E2%88%921.59_pts-d73a49?style=flat-square) ![as of](https://img.shields.io/badge/as_of-2026--11--18-555?style=flat-square) ![holdings](https://img.shields.io/badge/holdings-15-555?style=flat-square)
 
 </div>
 
@@ -12,38 +12,38 @@
 
 | NAV | Since inception | S&P 500 Total Return | Excess return | Last session |
 |:--:|:--:|:--:|:--:|:--:|
-| **$99.06** | **−1.43%** | −1.90% | **+0.48 pts** | −1.43% vs −1.90% |
+| **$95.76** | **−4.71%** | −3.12% | **−1.59 pts** | −1.54% vs −0.22% |
 
 | Max drawdown | Volatility | Sharpe | Beta | Tracking error | Days beating index | Dividends | Days tracked |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| −1.43% | _after 5 days_ | _20d+_ | _20d+_ | _20d+_ | 100% | $0.01 | 2 |
+| −4.71% | _after 5 days_ | _20d+_ | _20d+_ | _20d+_ | 33% | $0.01 | 4 |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/charts/performance-dark.png">
   <img alt="Cumulative return of the fund vs the S&P 500 Total Return" src="assets/charts/performance-light.png" width="100%">
 </picture>
 
-<sub>Updated automatically after every US market close. Time-weighted returns, dividends included; benchmark is the S&P 500 Total Return index (^SP500TR). Data as of 16 Nov 2026.</sub>
+<sub>Updated automatically after every US market close. Time-weighted returns, dividends included; benchmark is the S&P 500 Total Return index (^SP500TR). Data as of 18 Nov 2026.</sub>
 
 ## Holdings
 
 | | Ticker | Company | Sector | Weight | Target | Price | Return | P&L |
 |--:|:--|:--|:--|--:|--:|--:|--:|--:|
-| 1 | **COST** | Costco | Cons. Staples | 8.1% | 8% | $1,113.74 | +0.6% | +$0.05 |
-| 2 | **LLY** | Eli Lilly | Health Care | 8.0% | 8% | $1,431.67 | −1.0% | −$0.08 |
-| 3 | **VRT** | Vertiv | Industrials | 8.0% | 8% | $188.67 | −1.4% | −$0.11 |
-| 4 | **BKNG** | Booking Holdings | Cons. Discretionary | 7.9% | 8% | $157.53 | −2.1% | −$0.17 |
-| 5 | **NFLX** | Netflix | Comm. Services | 7.9% | 8% | $60.75 | −2.3% | −$0.18 |
-| 6 | **ADBE** | Adobe | Technology | 7.2% | 7% | $246.00 | +1.4% | +$0.10 |
-| 7 | **PGR** | Progressive | Financials | 7.0% | 7% | $237.33 | −0.6% | −$0.04 |
-| 8 | **NVO** | Novo Nordisk (ADR) | Health Care | 7.0% | 7% | $41.60 | −1.0% | −$0.07 |
-| 9 | **ISRG** | Intuitive Surgical | Health Care | 7.0% | 7% | $437.75 | −1.5% | −$0.10 |
-| 10 | **FICO** | Fair Isaac | Technology | 6.9% | 7% | $717.28 | −1.8% | −$0.12 |
-| 11 | **VST** | Vistra | Utilities | 5.1% | 5% | $130.16 | +0.8% | +$0.04 |
-| 12 | **CEG** | Constellation Energy | Utilities | 5.1% | 5% | $277.82 | +0.5% | +$0.03 |
-| 13 | **WPC** | W. P. Carey | Real Estate | 5.0% | 5% | $66.08 | −0.3% | −$0.02 |
-| 14 | **JPM** | JPMorgan Chase | Financials | 4.9% | 5% | $338.21 | −2.1% | −$0.11 |
-| 15 | **FCX** | Freeport-McMoRan | Materials | 4.9% | 5% | $55.19 | −3.2% | −$0.16 |
+| 1 | **VRT** | Vertiv | Industrials | 8.5% | 8% | $194.48 | +1.6% | +$0.13 |
+| 2 | **COST** | Costco | Cons. Staples | 8.3% | 8% | $1,096.62 | −0.9% | −$0.08 |
+| 3 | **NFLX** | Netflix | Comm. Services | 8.0% | 8% | $59.82 | −3.7% | −$0.30 |
+| 4 | **LLY** | Eli Lilly | Health Care | 8.0% | 8% | $1,382.75 | −4.4% | −$0.35 |
+| 5 | **BKNG** | Booking Holdings | Cons. Discretionary | 8.0% | 8% | $153.28 | −4.8% | −$0.38 |
+| 6 | **PGR** | Progressive | Financials | 7.0% | 7% | $228.47 | −4.3% | −$0.30 |
+| 7 | **ISRG** | Intuitive Surgical | Health Care | 6.9% | 7% | $420.95 | −5.3% | −$0.37 |
+| 8 | **NVO** | Novo Nordisk (ADR) | Health Care | 6.9% | 7% | $39.43 | −6.1% | −$0.43 |
+| 9 | **ADBE** | Adobe | Technology | 6.8% | 7% | $226.20 | −6.8% | −$0.48 |
+| 10 | **FICO** | Fair Isaac | Technology | 6.8% | 7% | $677.75 | −7.2% | −$0.50 |
+| 11 | **WPC** | W. P. Carey | Real Estate | 5.2% | 5% | $66.04 | −0.4% | −$0.02 |
+| 12 | **VST** | Vistra | Utilities | 5.1% | 5% | $125.58 | −2.7% | −$0.14 |
+| 13 | **CEG** | Constellation Energy | Utilities | 5.0% | 5% | $262.74 | −4.9% | −$0.25 |
+| 14 | **JPM** | JPMorgan Chase | Financials | 4.9% | 5% | $324.11 | −6.2% | −$0.31 |
+| 15 | **FCX** | Freeport-McMoRan | Materials | 4.7% | 5% | $51.45 | −9.7% | −$0.49 |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/charts/holdings-dark.png">
