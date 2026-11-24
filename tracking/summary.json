@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-23",
   "mode": "actual",
   "inception": "2026-11-13",
-  "trading_days": 5,
-  "nav": 94.36817618399999,
+  "trading_days": 7,
+  "nav": 94.472680734,
   "net_contributions": 100.01743635999999,
   "cash": 0.007742363999999999,
-  "total_return": -0.060986002372298787,
-  "benchmark_return": -0.05066211409009924,
-  "day_return": -0.014520933314486117,
-  "benchmark_day_return": -0.020053122099045195,
-  "max_drawdown": -0.060986002372298787,
-  "benchmark_max_drawdown": -0.05066211409009924,
-  "volatility": null,
-  "benchmark_volatility": null,
+  "total_return": -0.05994612601531113,
+  "benchmark_return": -0.042478356500288195,
+  "day_return": 0.033747408728308725,
+  "benchmark_day_return": 0.047299347193473285,
+  "max_drawdown": -0.09063484363059193,
+  "benchmark_max_drawdown": -0.08572305896527621,
+  "volatility": 0.34618672985607485,
+  "benchmark_volatility": 0.45970259892001286,
   "sharpe": null,
   "beta": null,
   "tracking_error": null,
-  "days_beat_benchmark": 0.5,
+  "days_beat_benchmark": 0.3333333333333333,
   "dividends_received": 0.007742363999999999,
   "positions": 15,
   "best": {
-    "ticker": "VRT",
-    "return_pct": 0.016038869442557804
+    "ticker": "WPC",
+    "return_pct": -0.003770170411702681
   },
   "worst": {
     "ticker": "FCX",
-    "return_pct": -0.13824561403508775
+    "return_pct": -0.12789473684210523
   },
-  "excess_return": -0.010323888282199545
+  "excess_return": -0.017467769515022935
 }
