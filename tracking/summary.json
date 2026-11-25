@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-24",
   "mode": "actual",
   "inception": "2026-11-13",
-  "trading_days": 7,
-  "nav": 94.472680734,
+  "trading_days": 8,
+  "nav": 94.837216954,
   "net_contributions": 100.01743635999999,
-  "cash": 0.007742363999999999,
-  "total_return": -0.05994612601531113,
-  "benchmark_return": -0.042478356500288195,
-  "day_return": 0.033747408728308725,
-  "benchmark_day_return": 0.047299347193473285,
+  "cash": 0.228701864,
+  "total_return": -0.05631879499055048,
+  "benchmark_return": -0.047184586689124175,
+  "day_return": 0.0038586416429360337,
+  "benchmark_day_return": -0.004915011812824277,
   "max_drawdown": -0.09063484363059193,
   "benchmark_max_drawdown": -0.08572305896527621,
-  "volatility": 0.34618672985607485,
-  "benchmark_volatility": 0.45970259892001286,
+  "volatility": 0.32686316944976973,
+  "benchmark_volatility": 0.41981194115110154,
   "sharpe": null,
   "beta": null,
   "tracking_error": null,
-  "days_beat_benchmark": 0.3333333333333333,
-  "dividends_received": 0.007742363999999999,
+  "days_beat_benchmark": 0.42857142857142855,
+  "dividends_received": 0.228701864,
   "positions": 15,
   "best": {
-    "ticker": "WPC",
-    "return_pct": -0.003770170411702681
+    "ticker": "COST",
+    "return_pct": 0.013288166214995597
   },
   "worst": {
     "ticker": "FCX",
-    "return_pct": -0.12789473684210523
+    "return_pct": -0.16263157894736843
   },
-  "excess_return": -0.017467769515022935
+  "excess_return": -0.009134208301426305
 }
