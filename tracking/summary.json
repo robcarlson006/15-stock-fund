@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-11-25",
+  "as_of": "2026-11-27",
   "mode": "actual",
   "inception": "2026-11-13",
-  "trading_days": 9,
-  "nav": 94.9311370166,
+  "trading_days": 10,
+  "nav": 96.08984327659999,
   "net_contributions": 100.01743635999999,
   "cash": 0.228701864,
-  "total_return": -0.05538423996357278,
-  "benchmark_return": -0.04958481097079315,
-  "day_return": 0.0009903291726238717,
-  "benchmark_day_return": -0.0025178839117693252,
+  "total_return": -0.04385449083334303,
+  "benchmark_return": -0.03438185516203207,
+  "day_return": 0.012205755628918347,
+  "benchmark_day_return": 0.01599612041584697,
   "max_drawdown": -0.09063484363059193,
   "benchmark_max_drawdown": -0.08572305896527621,
-  "volatility": 0.3068561321577247,
-  "benchmark_volatility": 0.3893399567754007,
+  "volatility": 0.3043821120295501,
+  "benchmark_volatility": 0.38246492701006246,
   "sharpe": null,
   "beta": null,
   "tracking_error": null,
-  "days_beat_benchmark": 0.5,
+  "days_beat_benchmark": 0.4444444444444444,
   "dividends_received": 0.228701864,
   "positions": 15,
   "best": {
     "ticker": "COST",
-    "return_pct": 0.008861878952122839
+    "return_pct": 0.01879864498644987
   },
   "worst": {
     "ticker": "CEG",
-    "return_pct": -0.1486111612786708
+    "return_pct": -0.1384251399674914
   },
-  "excess_return": -0.005799428992779632
+  "excess_return": -0.009472635671310958
 }
